@@ -4,7 +4,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out && rimraf out",
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
+    "export": "next export",
     "start": "next start"
   },
   "dependencies": {
